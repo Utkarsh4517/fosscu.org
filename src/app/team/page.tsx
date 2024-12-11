@@ -25,9 +25,9 @@ export default function Team() {
             <div className="absolute -bottom-2 left-0 w-full h-4 bg-yellow-300 -z-10 transform -rotate-1"></div>
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {teamData[0]["Steering Council"].map((member, index) => (
+            {teamData[0]["Steering Council"]?.map((member, index) => (
               <Link 
-                href={member.link.url}
+                href={member.link.url!}
                 key={index}
                 target={member.link.target}
                 rel={member.link.rel}
@@ -58,7 +58,7 @@ export default function Team() {
             <div className="absolute -bottom-2 left-0 w-full h-4 bg-yellow-300 -z-10 transform -rotate-1"></div>
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            {teamData[1]["Volunteer"].map((member, index) => (
+            {teamData[1]["Volunteer"]?.map((member, index) => (
               <Link 
                 href={member.link.url}
                 key={index}

@@ -36,7 +36,6 @@ export default function Navbar() {
         <NavButton href="/">Home</NavButton>
         <NavButton href="/about">About</NavButton>
         <NavButton href="/team">Team</NavButton>
-        <NavButton href="/contact">Contact</NavButton>
         <NavButton href="/shipyard">Shipyard</NavButton>
         <NavButton href="/resources">Resources</NavButton>
         <NavButton href="https://docs.fosscu.org">Handbook</NavButton>
