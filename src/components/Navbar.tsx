@@ -1,6 +1,12 @@
-import Link from 'next/link';
-import "../css/style.css"
-const NavButton = ({ href, children }: { href: string; children: React.ReactNode }) => (
+import Link from "next/link";
+import "../css/style.css";
+const NavButton = ({
+  href,
+  children,
+}: {
+  href: string;
+  children: React.ReactNode;
+}) => (
   <Link
     href={href}
     className="bg-yellow-300 px-6 py-2.5 rounded-md border-2 border-black 
@@ -22,15 +28,18 @@ export default function Navbar() {
     <nav className="relative ">
       <div className="absolute -left-4 top-1/2 -translate-y-1/2 w-4 h-4 bg-yellow-300 border-2 border-black rotate-45" />
       <div className="absolute -right-4 top-1/2 -translate-y-1/2 w-4 h-4 bg-yellow-300 border-2 border-black rotate-45" />
-      
-      <div className="flex flex-wrap gap-3 sm:gap-4 justify-center py-6 px-4 mx-4 
-        border-2 border-black rounded-lg bg-white/10 backdrop-blur-sm">
+
+      <div
+        className="flex flex-wrap gap-3 sm:gap-4 justify-center py-6 px-4 mx-4 
+        border-2 border-black rounded-lg bg-white/10 backdrop-blur-sm"
+      >
+        <NavButton href="/">Home</NavButton>
         <NavButton href="/about">About</NavButton>
         <NavButton href="/team">Team</NavButton>
         <NavButton href="/contact">Contact</NavButton>
         <NavButton href="/shipyard">Shipyard</NavButton>
         <NavButton href="/resources">Resources</NavButton>
-        <NavButton href="/handbook">Handbook</NavButton>
+        <NavButton href="https://docs.fosscu.org">Handbook</NavButton>
       </div>
 
       <div className="absolute -top-1 -left-1 w-3 h-3 border-l-2 border-t-2 border-black" />
