@@ -1,4 +1,6 @@
 import Navbar from '@/components/Navbar';
+import Link from 'next/link';
+import WhatWeDo from '@/components/WhatWeDo';
 
 export default function Home() {
   return (
@@ -20,7 +22,7 @@ export default function Home() {
         </div>
       </header>
       <main className="container mx-auto px-4 py-8">
-       
+        <WhatWeDo />
       </main>
     </div>
   );
