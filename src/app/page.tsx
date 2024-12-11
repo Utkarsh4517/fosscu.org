@@ -1,6 +1,7 @@
 import Navbar from '@/components/Navbar';
 import Link from 'next/link';
 import WhatWeDo from '@/components/WhatWeDo';
+import Topics from '@/components/Topics';
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       </header>
       <main className="container mx-auto px-4 py-8">
         <WhatWeDo />
+        <Topics />
       </main>
     </div>
   );
