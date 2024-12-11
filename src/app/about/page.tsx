@@ -66,8 +66,8 @@ export default function About() {
         <section className="text-center mb-16">
           <h2 className="text-3xl font-bold mb-6 font-serif">Join Our Community</h2>
           <p className="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
-            Whether you're a seasoned developer or just starting your journey in open source, 
-            there's a place for you in our community.
+            Whether you&apos;re a seasoned developer or just starting your journey in open source, 
+            there&apos;s a place for you in our community.
           </p>
           <div className="flex flex-wrap gap-6 justify-center">
             <Link

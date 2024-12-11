@@ -27,7 +27,7 @@ export default function Resources() {
             </h2>
             
             <p className="text-lg text-gray-700 mb-8">
-              We're working hard to build comprehensive resources for our community. 
+              We&apos;re working hard to build comprehensive resources for our community. 
               Check back soon for guides, documentation, and learning materials!
             </p>
 

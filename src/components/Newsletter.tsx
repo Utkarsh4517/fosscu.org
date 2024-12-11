@@ -69,7 +69,7 @@ export default function Newsletter() {
             </div>
 
             <p className="text-sm mt-4 opacity-90">
-              We'll send you our best community content and updates every week.
+              We&apos;ll send you our best community content and updates every week.
             </p>
           </div>
         </div>

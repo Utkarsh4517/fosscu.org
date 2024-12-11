@@ -27,7 +27,7 @@ export default function Shipyard() {
               </h2>
               
               <p className="text-lg text-gray-700 mb-8">
-                Shipyard is FOSSCU's monthly gathering where open source enthusiasts come together 
+                Shipyard is FOSSCU&apos;s monthly gathering where open source enthusiasts come together 
                 to build, ship, and celebrate amazing projects. Stay tuned for our next event!
               </p>
 

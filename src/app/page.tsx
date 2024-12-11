@@ -1,5 +1,4 @@
 import Navbar from '@/components/Navbar';
-import Link from 'next/link';
 import WhatWeDo from '@/components/WhatWeDo';
 import Topics from '@/components/Topics';
 import Newsletter from '@/components/Newsletter';

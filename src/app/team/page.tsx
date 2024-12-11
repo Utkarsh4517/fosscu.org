@@ -89,7 +89,7 @@ export default function Team() {
           <h2 className="text-3xl font-bold mb-6 font-serif">Join Our Team</h2>
           <p className="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
             Interested in contributing to open source and being part of our community? 
-            We're always looking for passionate volunteers!
+            We&apos;re always looking for passionate volunteers!
           </p>
           <Link
             href="https://dub.sh/fosscu"
