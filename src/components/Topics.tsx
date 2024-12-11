@@ -1,14 +1,14 @@
 import Link from 'next/link';
 
 const topics = [
-  { title: "Check Your Reputation", color: "bg-[#fefae0]" },
-  { title: "Get FOSSCU Sub-Domains", color: "bg-[#d5f5e3]" },
-  { title: "paste.fosscu.org", color: "bg-[#d6eaf8]" },
-  { title: "Linkliberte", color: "bg-[#f8e1f4]" },
-  { title: "Sponsor us", color: "bg-[#ffe0e9]" },
-  { title: "How we begin", color: "bg-[#fff3c4]" },
-  { title: "How to contribute", color: "bg-[#c6f7e9]" },
-  { title: " 🧙‍♂️Wand 🪄", color: "bg-[#c7ecee]" },
+  { title: "Check Your Reputation", color: "bg-[#fefae0]", link: "https://reputation.fosscu.org" },
+  { title: "Get FOSSCU Sub-Domains", color: "bg-[#d5f5e3]", link: "https://domains.fosscu.org" },
+  { title: "paste.fosscu.org", color: "bg-[#d6eaf8]", link: "https://paste.fosscu.org" },
+  { title: "Linkliberte", color: "bg-[#f8e1f4]", link: "https://ll.fosscu.org" },
+  { title: "FOSSConf", color: "bg-[#ffe0e9]", link: "https://conference.fosscu.org" },
+  { title: "How we begin", color: "bg-[#fff3c4]", link: "https://github.com/FOSS-Community" },
+  { title: "How to contribute", color: "bg-[#c6f7e9]", link: "https://github.com/FOSS-Community" },
+  { title: " 🧙‍♂️Wand 🪄", color: "bg-[#c7ecee]", link: "https://github.com/FOSS-Community/wand" },
 ];
 
 export default function Topics() {
@@ -28,7 +28,7 @@ export default function Topics() {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         {topics.map((topic, index) => (
           <Link 
-            href={`/projects/${topic.title.toLowerCase().replace(/\s+/g, '-')}`}
+            href={topic.link}
             key={index}
             className={`${topic.color} p-6 rounded-lg border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] 
               hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] transition-all duration-300 
