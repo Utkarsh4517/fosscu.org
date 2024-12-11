@@ -47,7 +47,7 @@ export default function Topics() {
 
       <div className="flex justify-center">
         <Link
-          href="https://github.com/fosscu" 
+          href="https://github.com/orgs/FOSS-Community/repositories" 
           className="bg-yellow-300 px-8 py-3 rounded-md border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] 
             hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:-translate-x-1 hover:-translate-y-1 
             transition-all duration-300 font-bold text-lg"
