@@ -3,6 +3,7 @@ import Link from 'next/link';
 import WhatWeDo from '@/components/WhatWeDo';
 import Topics from '@/components/Topics';
 import Newsletter from '@/components/Newsletter';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
         <Topics />
       </main>
       <Newsletter />
+      <Footer />
 
     </div>
   );

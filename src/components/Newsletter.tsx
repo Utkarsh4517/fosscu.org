@@ -85,16 +85,6 @@ export default function Newsletter() {
         </div>
       </div>
 
-      {/* Bottom wavy border */}
-      <div
-        className="absolute bottom-0 left-0 right-0 h-8 bg-white"
-        style={{
-          maskImage:
-            "url(\"data:image/svg+xml,%3Csvg width='96' height='32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M 0 0 C 24 0, 24 32, 48 32 C 72 32, 72 0, 96 0 L 96 32 L 0 32 Z' fill='white'/%3E%3C/svg%3E\")",
-          maskSize: "96px 32px",
-          maskRepeat: "repeat-x",
-        }}
-      />
     </section>
   );
 }

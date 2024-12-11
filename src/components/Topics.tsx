@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const topics = [
   { title: "Check Your Reputation", color: "bg-[#fefae0]" },
-  { title: "Get Your FOSSCU Sub-Domains", color: "bg-[#d5f5e3]" },
+  { title: "Get FOSSCU Sub-Domains", color: "bg-[#d5f5e3]" },
   { title: "paste.fosscu.org", color: "bg-[#d6eaf8]" },
   { title: "Linkliberte", color: "bg-[#f8e1f4]" },
   { title: "Sponsor us", color: "bg-[#ffe0e9]" },
