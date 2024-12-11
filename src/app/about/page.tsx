@@ -63,7 +63,6 @@ export default function About() {
           </div>
         </section>
 
-        {/* Call to Action */}
         <section className="text-center mb-16">
           <h2 className="text-3xl font-bold mb-6 font-serif">Join Our Community</h2>
           <p className="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
