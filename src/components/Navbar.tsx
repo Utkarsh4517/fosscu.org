@@ -1,5 +1,5 @@
 import Link from 'next/link';
-
+import "../css/style.css"
 const NavButton = ({ href, children }: { href: string; children: React.ReactNode }) => (
   <Link
     href={href}
@@ -19,7 +19,7 @@ const NavButton = ({ href, children }: { href: string; children: React.ReactNode
 
 export default function Navbar() {
   return (
-    <nav className="relative">
+    <nav className="relative ">
       <div className="absolute -left-4 top-1/2 -translate-y-1/2 w-4 h-4 bg-yellow-300 border-2 border-black rotate-45" />
       <div className="absolute -right-4 top-1/2 -translate-y-1/2 w-4 h-4 bg-yellow-300 border-2 border-black rotate-45" />
       

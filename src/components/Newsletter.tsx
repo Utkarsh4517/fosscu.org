@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-
+import "../css/squiggle.css"
 export default function Newsletter() {
   const [email, setEmail] = useState("");
 
@@ -12,17 +12,7 @@ export default function Newsletter() {
 
   return (
     <section className="mt-20 relative">
-      <div
-        className="absolute top-0 left-0 right-0 h-8 bg-white"
-        style={{
-          maskImage:
-            "url(\"data:image/svg+xml,%3Csvg width='96' height='32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M 0 32 C 24 32, 24 0, 48 0 C 72 0, 72 32, 96 32 L 96 0 L 0 0 Z' fill='white'/%3E%3C/svg%3E\")",
-          maskSize: "96px 32px",
-          maskRepeat: "repeat-x",
-        }}
-      />
-
-      <div className="bg-[#069668] pt-16 pb-16">
+      <div className="bg-[#069668] pt-16 pb-16  squiggle-top">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto text-center text-white">
             <h2 className="text-4xl font-bold mb-4 font-serif">

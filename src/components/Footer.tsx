@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import "../css/squiggle.css"
 
 const footerLinks = {
   community: [
@@ -29,7 +30,7 @@ const footerLinks = {
 
 export default function Footer() {
   return (
-    <footer className="bg-[#069668]">
+    <footer className="bg-[#069668] squiggle-bottom">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-5 gap-20 mb-12">
           <div>
