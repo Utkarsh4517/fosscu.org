@@ -26,7 +26,6 @@ export default function Newsletter() {
 
             <div className="bg-white p-8 rounded-lg border-2 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
               <div className="flex items-center gap-2 mb-6 justify-center">
-                <div className="w-6 h-6 border-2 border-black"></div>
                 <span className="text-black font-medium">
                   FOSSCU Weekly Updates
                 </span>
@@ -54,7 +53,7 @@ export default function Newsletter() {
                   placeholder="Enter your email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="flex-1 px-4 py-3 border-2 border-black rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-300"
+                  className="flex-1 px-4 py-3 border-2 border-black rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-300 text-black"
                   required
                 />
                 <button
